@@ -49,26 +49,18 @@ This portfolio project demonstrates the Associate Data Analyst skillset:
 
 ## Project Structure
 
-world-cup-2026-analysis/
-├── data/
-│ ├── raw/ # Raw data from APIs/sources
-│ │ └── youtube_videos.csv
-│ ├── processed/ # Cleaned and aggregated data
-│ │ └── kpi_report.txt
-│ └── outputs/ # Final analysis outputs
-├── notebooks/ # Jupyter notebooks (exploratory)
-├── src/ # Core analysis scripts
-│ ├── create_sample_data.py # Generate sample YouTube data
-│ ├── analysis.py # Calculate KPIs and metrics
-│ └── generate_report.py # Create PDF report
-├── app/
-│ └── dashboard.py # Streamlit interactive dashboard
-├── reports/
-│ └── World_Cup_2026_Intelligence_Report.pdf
-├── README.md # This file
-├── requirements.txt # Python dependencies
-└── youtube_credentials.json # API credentials (git-ignored)
 
+    world-cup-2026-analysis/
+    ├── data/
+    │   ├── raw/           - Raw YouTube data (CSV)
+    │   └── processed/     - Processed KPI metrics
+    ├── src/               - Python analysis scripts
+    ├── app/               - Streamlit dashboard
+    ├── reports/           - PDF reports
+    ├── README.md
+    ├── requirements.txt
+    └── youtube_credentials.json (git-ignored)
+    
 ## Getting Started
 
 ### Prerequisites
